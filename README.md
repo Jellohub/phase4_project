@@ -1,5 +1,6 @@
 # FLATIRON SCHOOL PHASE 4 PROJECT
 *Angelo Turri*
+_
 *angelo.turri@gmail.com*
 
 ## Stakeholder & Problem
@@ -8,7 +9,7 @@ Our stakeholder is a home-flipper in Michigan. Their aim is to buy properties, k
 ## Data Origin & Description
 The dataset in this project was taken from [this page](https://www.zillow.com/research/data/) and stored on [this github repository](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/tree/main/time-series) as "zillow_data.csv."
 
-After importing and adjusting the dataset so it could be used for modeling, it contained 265 months of data for 13,684 zipcodes, totalling to 3.6 million rows of data.
+After importing and adjusting the dataset so it could be used for modeling, it contained 265 months of data from April 1996 – April 2018 for 13,684 zipcodes, totalling 3.6 million rows of data.
 
 We condensed the dataset down to just houses in Michigan, and then we condensed it further to houses sold during and after 2012. We chose this time period because it was only during 2012 that the housing market came out of the decline caused by the 2008 housing market crash. We didn't want data from a rare, unlikely event to impact our models.
 
