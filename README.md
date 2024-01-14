@@ -2,8 +2,6 @@
 *Angelo Turri*
 *angelo.turri@gmail.com*
 
-Use cell block and code line numbers
-
 ## Stakeholder & Problem
 Our stakeholder is a home-flipper in Michigan. Their aim is to buy properties, keep them for several months, renovate them, and re-sell them for a profit. They have provided us with data from across the US; they want us to select the best 5 Michigan zip-codes to invest in.
 
@@ -88,15 +86,9 @@ Here are the 95% confidence intervals for each investment. The true ROI is 95% l
 ![95% confidence intervals](/figures/CIs.png)
 
 ## Repository Structure
-- **[data](https://github.com/Jellohub/phase_3_project/tree/master/data)**: folder containing data files.
-    - X_test.csv: the set of wells the charity organization wants us to categorize.
-    - X_test_preprocessed.csv: the same set of wells, preprocessed to allow our model to make predictions on it.
-    - X_train.csv, y_train.csv: the datasets we use to train our models.
-    - predictions.csv: our predictions for the charity organization.
-- **[figures](https://github.com/Jellohub/phase_3_project/tree/master/figures)**: folder containing all visualizations used in the project notebook and presentation.
-- **[models](https://github.com/Jellohub/phase_3_project/tree/master/models)**: This is the folder that will contain your model. It doesn't contain anything in this repo because the random forest model is too large to commit (almost 200MB).
-- **[tanzania_polygon](https://github.com/Jellohub/phase_3_project/tree/master/tanzania_polygon)**: folder containing data files for Tanzania's border shape – only used for a couple visualizations.
-- **[project notebook](https://github.com/Jellohub/phase_3_project/blob/master/notebook.ipynb)**: project notebook containing all data imports, preprocessing, analyses, models, and visualizations.
-- **[project notebook pdf](https://github.com/Jellohub/phase_3_project/blob/master/notebook.pdf)**: pdf version of project notebook.
-- **[presentation pdf](https://github.com/Jellohub/phase_3_project/blob/master/presentation.pdf)**: pdf file with all presentation slides.
-- **[model predictions notebook](https://github.com/Jellohub/phase_3_project/blob/master/model_predictions.ipynb)**: easily executed notebook generating predictions for charity organization's list of water wells; makes use of pickled models and exported preprocessed data to avoid time-consuming model training.
+- **[data](https://github.com/Jellohub/phase4_project/tree/master/data)**: folder containing our only data file.
+    - zillow_data.csv: time series data for 13,684 zipcodes in wide format
+- **[figures](https://github.com/Jellohub/phase4_project/tree/master/figures)**: folder containing all visualizations used in the project notebook and presentation.
+- **[project notebook](https://github.com/Jellohub/phase4_project/blob/master/notebook.ipynb)**: project notebook containing all data imports, preprocessing, analyses, models, and visualizations.
+- **[project notebook pdf](https://github.com/Jellohub/phase4_project/blob/master/notebook.pdf)**: pdf version of project notebook.
+- **[presentation pdf](https://github.com/Jellohub/phase4_project/blob/master/presentation.pdf)**: pdf file with all presentation slides.
